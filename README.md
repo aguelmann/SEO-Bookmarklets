@@ -2,7 +2,7 @@
 
 > A curated collection of powerful bookmarklets for SEO professionals, digital marketers, and web analysts.
 
-[![Bookmarklets](https://img.shields.io/badge/Bookmarklets-85+-blue.svg)](bookmarklets.html)
+[![Bookmarklets](https://img.shields.io/badge/Bookmarklets-60+-blue.svg)](bookmarklets.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](docs/CONTRIBUTING.md)
 
@@ -48,13 +48,14 @@ Bookmarklets are small JavaScript programs stored as bookmarks that add function
 ### Method 2: Individual Bookmarklets
 1. Browse the [catalog below](#bookmarklets-catalog)
 2. Find the bookmarklet you want
-3. Drag the link to your bookmarks bar
-4. Or right-click → "Bookmark this link"
+3. Click the "View Code" link
+4. Copy the JavaScript code
+5. Create a new bookmark and paste the code as the URL
 
-### Method 3: Manual Creation
-1. Create a new bookmark
-2. Copy the JavaScript code from [`bookmarklets/`](bookmarklets/) folder
-3. Paste as the URL/Location
+### Method 3: Clone Repository
+```bash
+git clone https://github.com/YOUR-USERNAME/seo-bookmarklets.git
+```
 
 📖 **Detailed instructions:** [INSTALLATION.md](docs/INSTALLATION.md)
 
@@ -68,8 +69,8 @@ Quickly analyze domains and URLs using popular SEO platforms.
 
 | Bookmarklet | Description | Link |
 |-------------|-------------|------|
-| **Ahrefs - Check Domain** | Opens current domain in Ahrefs Site Explorer with full metrics | [View Code](bookmarklets/seo-analysis/ahrefs-check-domain.js) |
-| **Ahrefs - Check URL** | Opens current URL in Ahrefs with backlink analysis | [View Code](bookmarklets/seo-analysis/ahrefs-check-url.js) |
+| **Ahrefs - Check Domain (Latest)** | Opens current domain in Ahrefs Site Explorer with full metrics | [View Code](bookmarklets/seo-analysis/ahrefs-check-domain-latest.js) |
+| **Ahrefs - Check URL (Latest)** | Opens current URL in Ahrefs with backlink analysis | [View Code](bookmarklets/seo-analysis/ahrefs-check-url-latest.js) |
 | **Ahrefs - Check Backlinks** | View backlink profile for current domain | [View Code](bookmarklets/seo-analysis/ahrefs-check-backlinks.js) |
 | **Moz - Check Domain** | Opens domain in Moz Domain Analysis | [View Code](bookmarklets/seo-analysis/moz-check-domain.js) |
 | **SEMrush - Check Domain** | Analyze domain traffic and keywords in SEMrush | [View Code](bookmarklets/seo-analysis/semrush-check-domain.js) |
@@ -77,7 +78,8 @@ Quickly analyze domains and URLs using popular SEO platforms.
 | **Majestic - Check Domain** | View domain metrics in Majestic | [View Code](bookmarklets/seo-analysis/majestic-check-domain.js) |
 | **SimilarWeb - Check Domain** | Get traffic estimates from SimilarWeb | [View Code](bookmarklets/seo-analysis/similarweb-check-domain.js) |
 | **SISTRIX - Check Domain** | Open domain in SISTRIX | [View Code](bookmarklets/seo-analysis/sistrix-check-domain.js) |
-| **Mangools - Check Domain** | Analyze root domain in Mangools | [View Code](bookmarklets/seo-analysis/mangools-check-domain.js) |
+| **Searchmetrics - Check URL** | Analyze URL in Searchmetrics | [View Code](bookmarklets/seo-analysis/searchmetrics-check-url.js) |
+| **Mangools - Check Root Domain** | Analyze root domain in Mangools | [View Code](bookmarklets/seo-analysis/mangools-check-root-domain.js) |
 
 ### 🔍 Google Tools
 
@@ -87,28 +89,28 @@ Essential Google tools for SEO analysis and testing.
 
 | Bookmarklet | Description | Link |
 |-------------|-------------|------|
-| **GSC - URL Performance** | Open URL in Google Search Console performance report | [View Code](bookmarklets/google-tools/gsc-url-performance.js) |
-| **Google - Domain Index Status** | Check all indexed pages from domain | [View Code](bookmarklets/google-tools/index-status-domain.js) |
-| **Google - URL Index Status** | Check if specific URL is indexed | [View Code](bookmarklets/google-tools/index-status-url.js) |
-| **Google - Past Month Index** | View pages indexed in last 30 days | [View Code](bookmarklets/google-tools/index-status-month.js) |
-| **Google - Past Week Index** | View pages indexed in last 7 days | [View Code](bookmarklets/google-tools/index-status-week.js) |
+| **GSC - URL Performance** | Open URL in Google Search Console performance report (andreguelmann.com) | [View Code](bookmarklets/google-tools/gsc-url-performance-andreguelmanncom.js) |
+| **Google - Domain Index Status** | Check all indexed pages from domain | [View Code](bookmarklets/utilities/google-domain-index-status.js) |
+| **Google - URL Index Status** | Check if specific URL is indexed | [View Code](bookmarklets/utilities/google-url-index-status.js) |
+| **Google - Past Month Index** | View pages indexed in last 30 days | [View Code](bookmarklets/utilities/google-past-month-index-status.js) |
+| **Google - Past Week Index** | View pages indexed in last 7 days | [View Code](bookmarklets/utilities/google-past-week-index-status.js) |
 
 #### SERP Analysis
 
 | Bookmarklet | Description | Link |
 |-------------|-------------|------|
-| **SERP - Extract Text** | Extract all text from SERP results page | [View Code](bookmarklets/google-tools/serp-extract-text.js) |
-| **SERP - Cache Viewer** | View Google's cached version of page | [View Code](bookmarklets/google-tools/cache-viewer.js) |
-| **SERP - Text-Only Cache** | View text-only cached version (faster) | [View Code](bookmarklets/google-tools/text-only-cache.js) |
-| **SERP - Highlight Dates** | Highlight all dates on SERP for freshness analysis | [View Code](bookmarklets/google-tools/highlight-dates.js) |
+| **SERP - Extract Text** | Extract all text from SERP results page | [View Code](bookmarklets/google-tools/google-serp-extract-text.js) |
+| **SERP - Cache Viewer** | View Google's cached version of page | [View Code](bookmarklets/google-tools/google-cache-page-viewer.js) |
+| **SERP - Text-Only Cache** | View text-only cached version (faster) | [View Code](bookmarklets/google-tools/google-text-only-cache.js) |
+| **SERP - Highlight Dates** | Highlight all dates on SERP for freshness analysis | [View Code](bookmarklets/google-tools/google-serp-highlight-dates.js) |
 
 #### Testing Tools
 
 | Bookmarklet | Description | Link |
 |-------------|-------------|------|
-| **Rich Results Test** | Test page for rich results eligibility | [View Code](bookmarklets/google-tools/rich-results-test.js) |
-| **Mobile-Friendly Test** | Check if page is mobile-friendly | [View Code](bookmarklets/google-tools/mobile-friendly-test.js) |
-| **PageSpeed Insights** | Analyze page performance with PSI | [View Code](bookmarklets/google-tools/pagespeed-insights.js) |
+| **Rich Results Test** | Test page for rich results eligibility | [View Code](bookmarklets/google-tools/google-rich-results-test.js) |
+| **Mobile-Friendly Test** | Check if page is mobile-friendly | [View Code](bookmarklets/google-tools/google-mobile-friendly-test.js) |
+| **PageSpeed Insights** | Analyze page performance with PSI | [View Code](bookmarklets/google-tools/google-pagespeed-insights.js) |
 
 ### 🔧 Technical SEO
 
@@ -118,17 +120,17 @@ Tools for technical SEO auditing and validation.
 
 | Bookmarklet | Description | Link |
 |-------------|-------------|------|
-| **Structured Data Validator** | Validate schema markup (Schema.org) | [View Code](bookmarklets/technical-seo/schema-validator.js) |
-| **Google Structured Data Test** | Google's structured data testing tool | [View Code](bookmarklets/technical-seo/google-sd-test.js) |
-| **Structured Data Linter** | Advanced structured data validator | [View Code](bookmarklets/technical-seo/sd-linter.js) |
+| **Structured Data Validator** | Validate schema markup (Schema.org) | [View Code](bookmarklets/technical-seo/structured-data-validator.js) |
+| **Google Structured Data Test** | Google's structured data testing tool | [View Code](bookmarklets/technical-seo/google-structured-data-testing-tool.js) |
+| **Structured Data Linter** | Advanced structured data validator | [View Code](bookmarklets/technical-seo/structured-data-linter.js) |
 
 #### Site Files
 
 | Bookmarklet | Description | Link |
 |-------------|-------------|------|
-| **Show Robots.txt** | View site's robots.txt file | [View Code](bookmarklets/technical-seo/show-robots.js) |
-| **Show Sitemap.xml** | View site's XML sitemap | [View Code](bookmarklets/technical-seo/show-sitemap.js) |
-| **Extract Sitemap URLs** | Extract all URLs from sitemap to list | [View Code](bookmarklets/technical-seo/extract-sitemap-urls.js) |
+| **Show Robots.txt** | View site's robots.txt file | [View Code](bookmarklets/technical-seo/show-robotstxt.js) |
+| **Show Sitemap.xml** | View site's XML sitemap | [View Code](bookmarklets/technical-seo/show-sitemapxml.js) |
+| **Extract Sitemap URLs** | Extract all URLs from sitemap to list | [View Code](bookmarklets/technical-seo/extract-urls-from-sitemap.js) |
 
 ### 📝 Content Analysis
 
@@ -136,11 +138,11 @@ Analyze on-page content and structure.
 
 | Bookmarklet | Description | Link |
 |-------------|-------------|------|
-| **Highlight Headings (H1-H6)** | Color-code all heading tags for hierarchy analysis | [View Code](bookmarklets/content-analysis/highlight-headings.js) |
-| **Keyword Stuffing Checker** | Analyze word frequency and potential over-optimization | [View Code](bookmarklets/content-analysis/keyword-stuffing.js) |
-| **Image to Alt Text** | Replace images with their alt text | [View Code](bookmarklets/content-analysis/image-to-alt.js) |
-| **Duplicate Content Checker** | Check for duplicate content via Copyscape | [View Code](bookmarklets/content-analysis/duplicate-content.js) |
-| **Markdown Version** | Convert page to markdown via Jina AI | [View Code](bookmarklets/content-analysis/markdown-version.js) |
+| **Highlight Headings (H1-H6)** | Color-code all heading tags for hierarchy analysis | [View Code](bookmarklets/content-analysis/highlight-headings-h1-h6.js) |
+| **Keyword Stuffing Checker** | Analyze word frequency and potential over-optimization | [View Code](bookmarklets/content-analysis/keyword-stuffing-checker.js) |
+| **Image to Alt Text** | Replace images with their alt text | [View Code](bookmarklets/content-analysis/image-to-alt-text.js) |
+| **Duplicate Content Checker** | Check for duplicate content via Copyscape | [View Code](bookmarklets/content-analysis/duplicate-content-checker.js) |
+| **Markdown Version** | Convert page to markdown via Jina AI | [View Code](bookmarklets/content-analysis/markdown-version-via-jina-ai.js) |
 
 ### 🔗 Link Analysis
 
@@ -148,12 +150,12 @@ Audit and analyze links on the page.
 
 | Bookmarklet | Description | Link |
 |-------------|-------------|------|
-| **Highlight Links** | Color-code links by type (NoFollow/UGC/Sponsored/DoFollow) | [View Code](bookmarklets/link-analysis/highlight-links.js) |
-| **Canonical Tag Checker** | Verify canonical tag implementation | [View Code](bookmarklets/link-analysis/canonical-checker.js) |
+| **Highlight Links** | Color-code links by type (NoFollow/UGC/Sponsored/DoFollow) | [View Code](bookmarklets/link-analysis/highlight-links-nofollowugcsponsored.js) |
+| **Canonical Tag Checker** | Verify canonical tag implementation | [View Code](bookmarklets/link-analysis/canonical-tag-checker.js) |
 | **List All URLs** | Extract all links from page to popup | [View Code](bookmarklets/link-analysis/list-all-urls.js) |
-| **Change Anchors to URLs** | Replace anchor text with full URLs | [View Code](bookmarklets/link-analysis/anchors-to-urls.js) |
-| **Identify External/Internal Links** | Color-code links by internal/external | [View Code](bookmarklets/link-analysis/external-internal.js) |
-| **Broken Links Checker** | Check for broken links via W3C validator | [View Code](bookmarklets/link-analysis/broken-links.js) |
+| **Change Anchors to URLs** | Replace anchor text with full URLs | [View Code](bookmarklets/link-analysis/change-anchors-to-full-urls.js) |
+| **Identify External/Internal Links** | Color-code links by internal/external | [View Code](bookmarklets/link-analysis/identify-externalinternal-links.js) |
+| **Broken Links Checker** | Check for broken links via W3C validator | [View Code](bookmarklets/link-analysis/broken-links-checker.js) |
 
 ### ⚡ Performance & Testing
 
@@ -161,8 +163,8 @@ Test page performance and speed.
 
 | Bookmarklet | Description | Link |
 |-------------|-------------|------|
-| **WebPageTest** | Analyze page with WebPageTest.org | [View Code](bookmarklets/performance/webpagetest.js) |
-| **Check Page Performance** | Real-time performance metrics overlay | [View Code](bookmarklets/performance/performance-check.js) |
+| **WebPageTest** | Analyze page with WebPageTest.org | [View Code](bookmarklets/utilities/webpagetest.js) |
+| **Check Page Performance** | Real-time performance metrics overlay | [View Code](bookmarklets/utilities/check-page-performance.js) |
 
 ### 🛠️ Utility Tools
 
@@ -170,18 +172,18 @@ General-purpose utilities for web analysis.
 
 | Bookmarklet | Description | Link |
 |-------------|-------------|------|
-| **Clean URL** | Remove all query parameters from URL | [View Code](bookmarklets/utilities/clean-url.js) |
-| **Show Scroll Percentage** | Display current scroll depth percentage | [View Code](bookmarklets/utilities/scroll-percentage.js) |
-| **Export Google Sheet as CSV** | Download current Google Sheet as CSV | [View Code](bookmarklets/utilities/export-sheet-csv.js) |
-| **Reddit Post - JSON Version** | View Reddit post as JSON | [View Code](bookmarklets/utilities/reddit-json.js) |
-| **Enable Page Editing** | Make entire page editable | [View Code](bookmarklets/utilities/enable-editing.js) |
-| **Disable Page Editing** | Turn off page editing mode | [View Code](bookmarklets/utilities/disable-editing.js) |
-| **View DOM Source** | View formatted HTML source code | [View Code](bookmarklets/utilities/view-dom-source.js) |
+| **Clean URL** | Remove all query parameters from URL | [View Code](bookmarklets/utilities/clean-url-remove-query-params.js) |
+| **Show Scroll Percentage** | Display current scroll depth percentage | [View Code](bookmarklets/utilities/show-scroll-percentage.js) |
+| **Export Google Sheet as CSV** | Download current Google Sheet as CSV | [View Code](bookmarklets/utilities/export-google-sheet-as-csv.js) |
+| **Reddit Post - JSON Version** | View Reddit post as JSON | [View Code](bookmarklets/utilities/reddit-post-json-version.js) |
+| **Enable Page Editing** | Make entire page editable | [View Code](bookmarklets/utilities/enable-page-editing.js) |
+| **Disable Page Editing** | Turn off page editing mode | [View Code](bookmarklets/utilities/disable-page-editing.js) |
+| **View DOM Source** | View formatted HTML source code | [View Code](bookmarklets/utilities/view-dom-source-formatted.js) |
 | **Wayback Machine** | Open domain in Internet Archive | [View Code](bookmarklets/utilities/wayback-machine.js) |
-| **Wappalyzer** | Detect technologies used on website | [View Code](bookmarklets/utilities/wappalyzer.js) |
-| **NoJS Side-by-Side** | Compare page with/without JavaScript | [View Code](bookmarklets/utilities/nojs-comparison.js) |
-| **Wireframe Transform** | Convert page to wireframe view | [View Code](bookmarklets/utilities/wireframe.js) |
-| **Click to Drag Elements** | Make page elements draggable | [View Code](bookmarklets/utilities/click-to-drag.js) |
+| **Wappalyzer** | Detect technologies used on website | [View Code](bookmarklets/utilities/wappalyzer-technology-detection.js) |
+| **NoJS Side-by-Side** | Compare page with/without JavaScript | [View Code](bookmarklets/utilities/nojs-side-by-side-comparison.js) |
+| **Wireframe Transform** | Convert page to wireframe view | [View Code](bookmarklets/utilities/wireframe-transform.js) |
+| **Click to Drag Elements** | Make page elements draggable | [View Code](bookmarklets/utilities/click-to-drag-elements.js) |
 
 ---
 
@@ -287,7 +289,7 @@ General-purpose utilities for web analysis.
 - Settings → Privacy → Pop-ups and redirects
 - Try right-click → "Open in new tab"
 
-📖 **More help:** [docs/USAGE_GUIDE.md](docs/USAGE_GUIDE.md)
+📖 **More help:** [docs/INSTALLATION.md](docs/INSTALLATION.md)
 
 ---
 
@@ -338,9 +340,8 @@ If you find this collection useful, please star the repo!
 
 ## 🔗 Related Resources
 
-- [Chrome Extension Alternative](https://github.com/yourusername/seo-chrome-extension) *(if you create one)*
-- [SEO Bookmarklets Blog Post](https://yourblog.com/seo-bookmarklets) *(if you write one)*
-- [Video Tutorial](https://youtube.com/watch?v=...) *(if you create one)*
+- [SEO Bookmarklets Blog Post](#) *(if you write one)*
+- [Video Tutorial](#) *(if you create one)*
 
 ---
 

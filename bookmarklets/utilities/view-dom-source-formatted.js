@@ -1,0 +1,10 @@
+/**
+ * View DOM Source (Formatted)
+ * 
+ * Category: Utility Tools
+ * 
+ * @author SEO Community
+ * @license MIT
+ */
+
+javascript:(function()%7Bconst content %3D document.documentElement.outerHTML.replace(%2F%5B%5Cu00A0-%5Cu9999<>%5C%26%5D%2Fgim%2C function(i) %7B%0A  return '%26%23' %2B i.charCodeAt(0) %2B '%3B'%3B%0A%7D)%3B%0Adocument.documentElement.innerHTML %3D %60<html>%0A  <head>%0A    <link rel%3D&quot;stylesheet&quot; href%3D&quot;https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fprism%2F1.20.0%2Fthemes%2Fprism.css&quot;>%0A  <%2Fhead>%0A  <body>%0A    <pre><code class%3D&quot;lang-html&quot;>%24%7Bcontent%7D<%2Fcode><%2Fpre>%0A  <%2Fbody>%0A<%2Fhtml>%60%3B%0A%0A%2F%2F beautify%0Aconst b1 %3D document.createElement('script')%3B%0Aconst b2 %3D document.createElement('script')%3B%0Aconst b3 %3D document.createElement('script')%3B%0A%0Ab1.src %3D 'https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fjs-beautify%2F1.11.0%2Fbeautify.min.js'%3B%0Ab2.src %3D 'https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fjs-beautify%2F1.11.0%2Fbeautify-css.min.js'%3B%0Ab3.src %3D 'https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fjs-beautify%2F1.11.0%2Fbeautify-html.min.js'%3B%0A%0Alet loaded %3D 0%3B%0A%0Afunction onBeautifyLoaded() %7B%0A  loaded%2B%2B%3B%0A  if(loaded %3D%3D 3) %7B%0A    document.querySelector('code').textContent %3D html_beautify(document.querySelector('code').textContent%2C %7B%0A      indent_size%3A 2%2C%0A      max_preserve_newlines%3A 1%0A    %7D)%3B%0A    %2F%2F for some reason doesn't work in innerHTML %3A%2F%0A    const prism %3D document.createElement('script')%3B%0A    prism.src %3D 'https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fprism%2F1.20.0%2Fprism.min.js'%3B%0A    document.body.appendChild(prism)%3B%0A  %7D%0A%7D%0A%0Ab1.addEventListener('load'%2C onBeautifyLoaded)%3B%0Ab2.addEventListener('load'%2C onBeautifyLoaded)%3B%0Ab3.addEventListener('load'%2C onBeautifyLoaded)%3B%0A%0Adocument.head.appendChild(b1)%3B%0Adocument.head.appendChild(b2)%3B%0Adocument.head.appendChild(b3)%3B%7D)()%3B

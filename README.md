@@ -143,6 +143,7 @@ Analyze on-page content and structure.
 | **Image to Alt Text** | Replace images with their alt text | [View Code](bookmarklets/content-analysis/image-to-alt-text.js) |
 | **Duplicate Content Checker** | Check for duplicate content via Copyscape | [View Code](bookmarklets/content-analysis/duplicate-content-checker.js) |
 | **Markdown Version** | Convert page to markdown via Jina AI | [View Code](bookmarklets/content-analysis/markdown-version-via-jina-ai.js) |
+| **HTML vs Markdown Comparison** | Compare token/word/char counts between HTML source and Markdown | [View Code](bookmarklets/content-analysis/html-vs-markdown-comparison.js) |
 
 ### 🔗 Link Analysis
 

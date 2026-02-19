@@ -3,8 +3,9 @@
  * 
  * Category: Other SEO Platforms
  * 
- * @author SEO Community
+ * @author Andre Guelmann
  * @license MIT
  */
 
 javascript:(function(){ window.open('https://us.sistrix.com/'+location.host)})();
+

@@ -6,7 +6,7 @@
  * 
  * @category SEO Analysis
  * @requires Ahrefs account (free or paid)
- * @author SEO Community
+ * @author Andre Guelmann
  * @license MIT
  */
 
@@ -45,3 +45,4 @@ javascript:(function(){
     'target=' + location.host
   )
 })();
+

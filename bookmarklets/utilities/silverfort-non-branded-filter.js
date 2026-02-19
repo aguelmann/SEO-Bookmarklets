@@ -3,8 +3,9 @@
  * 
  * Category: Silverfort Archived
  * 
- * @author SEO Community
+ * @author Andre Guelmann
  * @license MIT
  */
 
 javascript:(function(){ window.location.search += '&query=-silver'})();
+

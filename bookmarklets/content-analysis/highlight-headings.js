@@ -13,7 +13,7 @@
  * - H6: Plum
  * 
  * @category Content Analysis
- * @author SEO Community
+ * @author Andre Guelmann
  * @license MIT
  */
 
@@ -34,3 +34,4 @@ javascript:void((function(){
     }
   }
 })())
+

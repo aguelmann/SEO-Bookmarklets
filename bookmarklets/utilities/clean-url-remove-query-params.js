@@ -3,8 +3,9 @@
  * 
  * Category: Utility Tools
  * 
- * @author SEO Community
+ * @author Andre Guelmann
  * @license MIT
  */
 
 javascript:console.log('Original URL: '+window.location);window.history.replaceState('','',window.location.origin+window.location.pathname);
+

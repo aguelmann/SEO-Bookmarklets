@@ -3,8 +3,9 @@
  * 
  * Category: Utility Tools
  * 
- * @author SEO Community
+ * @author Andre Guelmann
  * @license MIT
  */
 
 javascript:document.body.contentEditable = 'false'; document.designMode='off'; void 0
+

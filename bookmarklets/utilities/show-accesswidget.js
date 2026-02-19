@@ -3,8 +3,9 @@
  * 
  * Category: accessiBe Archived
  * 
- * @author SEO Community
+ * @author Andre Guelmann
  * @license MIT
  */
 
 javascript:window.location.href=location.href+'?a#showacsb';
+

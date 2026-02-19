@@ -3,8 +3,9 @@
  * 
  * Category: Site Files
  * 
- * @author SEO Community
+ * @author Andre Guelmann
  * @license MIT
  */
 
 javascript:void(location.href='http://' + location.host + '/robots.txt')
+

@@ -3,8 +3,9 @@
  * 
  * Category: Other SEO Platforms
  * 
- * @author SEO Community
+ * @author Andre Guelmann
  * @license MIT
  */
 
 javascript:(function(){ window.open('http://www.semrush.com/info/'+location.href)})();
+

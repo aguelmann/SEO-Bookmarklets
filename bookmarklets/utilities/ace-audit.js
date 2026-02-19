@@ -3,8 +3,9 @@
  * 
  * Category: accessiBe Archived
  * 
- * @author SEO Community
+ * @author Andre Guelmann
  * @license MIT
  */
 
 javascript:(function(){ window.open('https://accessibe.com/accessscan?website=%27+location.hostname)})();
+
